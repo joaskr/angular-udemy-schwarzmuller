@@ -4,14 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
-import { CockpitComponent } from './cockpit/cockpit.component';
-import { ServerElementComponent } from './server-element/server-element.component';
+import {ShortenPipe} from './shorten.pipe';
+import { FilterPipe } from './filter.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CockpitComponent,
-    ServerElementComponent
+    ShortenPipe,
+    FilterPipe
   ],
   imports: [
     BrowserModule,
